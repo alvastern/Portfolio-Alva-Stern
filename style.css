@@ -415,7 +415,7 @@ a {
 
 }
 
-@media (min-width 1024px) {
+@media (min-width: 1024px) {
     #poträtt, #designvision {
         margin-left: 500px;
         margin-right: 0px;
