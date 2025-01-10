@@ -13,7 +13,6 @@ html {
     color: white; /* Håll färgen vit även för besökta länkar */
 }
 
-
 header {
     color: white;
     font-family: 'helvetica';
@@ -416,6 +415,11 @@ a {
 }
 
 @media (min-width: 1024px) {
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
 
 
 /*Lock app: Volvo*/
