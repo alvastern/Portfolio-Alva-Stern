@@ -418,7 +418,7 @@ a {
 @media (min-width: 1024px) {
     #poträtt, #designvision, #whoami, #educationUX, #contact, #educationFEP {
         width: 80%; /* Sätt bredden till 80% av föräldraelementet */
-        max-width: 1500px; /* Maximal bredd för elementen */
+        max-width: 1200px; /* Maximal bredd för elementen */
         margin-left: auto; /* Detta gör att det skapas ett vänstermarginal för att trycka till vänster */
         margin-right: auto; /* Detta gör att det skapas ett högermarginal för att trycka till höger */
         align-items: center;
