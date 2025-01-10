@@ -419,6 +419,10 @@ a {
         margin-left: 200px;
         margin-right: 200px;
     }
+
+    #introduction {
+        padding-left: 100px;
+    }
 }
 
 
