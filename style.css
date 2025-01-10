@@ -418,9 +418,8 @@ a {
 @media (min-width: 1024px) {
     @media (min-width: 1024px) {
     #poträtt, #designvision, #whoami, #educationUX, #contact, #educationFEP {
-        width: 90%;
+        width: 80%;
         max-width: 1200px;
-        margin: 0 auto;
     }
 }
 
