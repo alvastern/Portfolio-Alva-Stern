@@ -424,6 +424,7 @@ a {
         #introduction {
             padding-left: 40px;
             padding-right: 40px;
+            align-items: center;
         }
     
         #educationFEP {
