@@ -427,7 +427,7 @@ a {
         align-items: center; /* Centrerar alla element horisontellt */
         justify-content: center; /* Centrerar alla element vertikalt */
         padding-left: 40px;
-        padding-right: 5px;
+        padding-right: 40px;
         width: 100%; /* Gör så att boxen tar upp hela bredden */
         margin-left: auto;
         margin-right: auto;
@@ -437,16 +437,14 @@ a {
     #whoami, #educationUX, #contact, #educationFEP {
         width: 100%; /* Gör alla divar fullbredd */
         height: auto;
-        margin: 10px 0;
+        margin: 10px;
         padding: 20px;
         text-align: center; /* Centrerar innehållet inuti dessa divar */
     }
 
     #designvision {
         width: 100%;
-        margin-top: 0px;
         margin-left: 20px;
-        text-align: center;
     }
 }
 
