@@ -428,9 +428,14 @@ a {
         gap: 20px; /* Lägg till mellanrum mellan boxarna */
         padding-left: 40px;
         padding-right: 40px;
-        width: 100%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #poträtt {
+        height: 280px;
+        width: auto;
     }
 
     /* Gör alla boxar lika stora, förutom #educationFEP */
@@ -459,7 +464,6 @@ a {
         width: 100%;
         margin-top: 0px;
         margin-left: 20px;
-        text-align: center;
     }
 }
 
