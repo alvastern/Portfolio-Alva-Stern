@@ -416,20 +416,40 @@ a {
 }
 
 @media (min-width: 1024px) {
-        body {
-            margin-left: 180px;
-            margin-right: 180px;
-        }
-    
-        #introduction {
-            padding-left: 40px;
-            padding-right: 5px;
-        }
-    
-        #educationFEP {
-            margin-left: 20px;
-        }
+    body {
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+
+    #introduction {
+        display: flex;
+        flex-direction: column; /* Säkerställer att elementen ligger vertikalt */
+        align-items: center; /* Centrerar alla element horisontellt */
+        justify-content: center; /* Centrerar alla element vertikalt */
+        padding-left: 40px;
+        padding-right: 5px;
+        width: 100%; /* Gör så att boxen tar upp hela bredden */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Om du vill justera specifika element i #introduction ytterligare */
+    #whoami, #educationUX, #contact, #educationFEP {
+        width: 100%; /* Gör alla divar fullbredd */
+        height: auto;
+        margin: 10px 0;
+        padding: 20px;
+        text-align: center; /* Centrerar innehållet inuti dessa divar */
+    }
+
+    #designvision {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 20px;
+        text-align: center;
+    }
 }
+
 
 /*Lock app: Volvo*/
 
