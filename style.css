@@ -415,62 +415,6 @@ a {
 
 }
 
-@media (min-width: 1024px) {
-    body {
-        margin-left: 180px;
-        margin-right: 180px;
-    }
-
-    #introduction {
-        display: flex;
-        flex-wrap: wrap; /* Tillåter att boxarna kan bryta till nästa rad vid behov */
-        justify-content: center; /* Centrerar innehållet horisontellt */
-        gap: 20px; /* Lägg till mellanrum mellan boxarna */
-        padding-left: 40px;
-        padding-right: 40px;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #poträtt {
-        height: 280px;
-        width: auto;
-    }
-
-    /* Gör alla boxar lika stora, förutom #educationFEP */
-    #whoami, #educationUX, #contact {
-        flex: 1 1 300px; /* Boxarna kommer vara lika stora, med minsta bredd 300px */
-        height: 280px; /* Alla boxar får samma höjd */
-        width: 322px;
-        padding: 20px;
-        text-align: center;
-        border-radius: 15px;
-        box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    /* Sätt bredd för #educationFEP och justera höjd */
-    #educationFEP {
-        flex: 2 1 600px; /* Denna box kommer vara större än de andra */
-        height: 280px;
-        padding: 20px;
-        text-align: center;
-        border-radius: 15px;
-        box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
-    }
-
-    /* Justera #designvision så att den också är centrerad */
-    #designvision {
-        width: 100%;
-        margin-top: 0px;
-        margin-left: 20px;
-    }
-}
-
-
-
-
-
 /*Lock app: Volvo*/
 
 #introduktion {
