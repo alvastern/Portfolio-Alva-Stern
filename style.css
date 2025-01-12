@@ -415,7 +415,7 @@ a {
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 2024px) {
         body {
             margin-left: 200px;
             margin-right: 200px;
@@ -1001,7 +1001,7 @@ a {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 2024px) {
     #meintheproject {
         margin-left: 400px;
     }
@@ -1521,7 +1521,7 @@ a {
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 2024px) {
     #meintheprojecteleiko {
         margin-left: 370px;
     }
@@ -1871,7 +1871,7 @@ a {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 2024px) {
     #DOTPmyportfolio {
         height: 145px;
     }
