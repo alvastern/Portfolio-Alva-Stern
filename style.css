@@ -630,6 +630,8 @@ a {
     width: 80%;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
     margin-bottom: 20px;
+    margin-right: 20x;
+    margin-left: 20px;
 }
 
 #IGvolvo {
