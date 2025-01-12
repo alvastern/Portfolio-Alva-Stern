@@ -966,8 +966,13 @@ a {
     /* Bilder */
     .card-image, #DPvolvoimage, 
     #wireframevolvo1, #wireframevolvo2, #wireframevolvo3, 
-    #lowsharevolvo, #shareversion1volvo, #shareversion2volvo, #shareversion3volvo {
+    #lowsharevolvo, #shareversion2volvo, #shareversion3volvo {
         max-width: 100%;
+        height: auto;
+    }
+
+    #shareversion1volvo {
+        width: 100%;
         height: auto;
     }
 
@@ -992,7 +997,8 @@ a {
 
     #volvoresearchsummary {
         width: 80%;
-        margin-right: 80px;
+        margin-right: 180px;
+        margin-left: 0px;
     }
 
     #sketchvolvo1, #sketchvolvo2, #sketchvolvo3 {
