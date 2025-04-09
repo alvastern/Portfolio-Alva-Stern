@@ -1,0 +1,355 @@
+html {
+    background-color: #A3A3A3;
+}
+
+h5 {
+    text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 400; 
+    font-size: 1.5rem; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#tillhemskärm {
+    text-decoration: none;
+    color: white;
+}
+
+#tillhemskärm:visited {
+    color: white;
+}
+
+header {
+    color: white;
+    font-family: 'Roboto', 'helvetica';
+    border-bottom: white solid 0.1875rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+}
+
+#displaylinkedinikon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+#mailikon, #linkedinikon {
+    margin-left: 1.25rem;
+}
+
+.myportfolio {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 350;
+    box-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.875rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+#myportfoliointro {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 350;
+    box-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.875rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    padding-bottom: 1.25rem;
+    padding-top: 0.3125rem;
+    padding-left: 2.5rem;
+}
+
+#lastsectionmyportfolio,
+#myportfolioDaG {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 350;
+    box-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.875rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+#lastsectionmyportfolio {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#myportfolioDaG {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#rubrikmyportfolio {
+    font-size: 2rem;
+    font-family: 'Roboto', 'helvetica';
+    margin-left: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 1.875rem;
+}
+
+#underrubrikmyportfolio {
+    font-family: 'Roboto', 'helvetica';
+    font-size: 1.375rem;
+    margin-left: 1.25rem;
+    margin-top: 0.625rem;
+}
+
+#myportfoliointro h3 {
+    margin-top: 0;
+    margin-left: 1.25rem;
+}
+
+.displaymyportfolio {
+    display: flex;
+    align-items: flex-start;
+}
+
+#DOTPmyportfolio,
+#goalwiththisprojectmyportfolio,
+#HTMLmyportfolio,
+#CSSmyportfolio,
+#challengesmyportfolio,
+#insightsmyportfolio {
+    background-color: white;
+    box-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.875rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    width: 100%;
+}
+
+#goalwiththisprojectmyportfolio {
+    height: 9.0625rem;
+}
+
+#HTMLmyportfolio,
+#CSSmyportfolio {
+    min-height: 10rem;
+    height: 100%;
+}
+
+#challengesmyportfolio,
+#insightsmyportfolio {
+    height: 18.125rem;
+}
+
+.rubrikchallengesinsightsmyportfolio {
+    font-size: 1.75rem;
+    text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 400;
+    margin-top: 0.625rem;
+    margin-bottom: 2%;
+}
+
+#CCimages1 {
+    max-width: 21%;
+    height: auto;
+}
+
+#CCimages2 {
+    max-width: 25%;
+    height: auto;
+}
+
+#CCimages3 {
+    max-width: 60%;
+    height: auto;
+}
+
+#CCimages4 {
+    max-width: 10rem;
+    height: auto;
+}
+
+#CCimages5 {
+    max-width: 13.75rem;
+    height: auto;
+}
+
+#CCimages6 {
+    max-width: 12.1875rem;
+    height: auto;
+}
+
+#CCimages7 {
+    max-width: 70%;
+    height: auto;
+}
+
+#CCimages8 {
+    max-width: 60%;
+    height: auto;
+}
+
+#rubrikCC {
+    font-size: 2rem;
+    text-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', 'helvetica';
+    font-weight: 400;
+    margin-top: 0.625rem;
+}
+
+#createthestructureCCmyfortfolio,
+#dynamicsCCmyportfolio,
+#connectdifferentpagesCCmyportfolio,
+#spacearoundcontentCCmyportfolio,
+#facilitateCSSstylingCCmyportfolio,
+#controlsizeCCmyportfolio,
+#imagesCCmyportfolio,
+#stylingCCmyportfolio {
+    background-color: white;
+    box-shadow: 0.125rem 0.125rem 0.375rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.875rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+}
+
+#dynamicsCCmyportfolio,
+#connectdifferentpagesCCmyportfolio,
+#spacearoundcontentCCmyportfolio,
+#facilitateCSSstylingCCmyportfolio,
+#controlsizeCCmyportfolio,
+#imagesCCmyportfolio,
+#stylingCCmyportfolio {
+    height: 14.0625rem;
+}
+
+
+/* Media: My Portfolio */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    #displaylinkedinikon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 1.25rem;
+    }
+
+    #mailikon, #linkedinikon {
+        margin-left: 1.25rem;
+    }
+
+    #myportfoliointro {
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+        margin-bottom: 0;
+        margin-top: 1.25rem;
+        padding-left: 2rem;
+        padding-top: 1.25rem;
+    }
+
+    #myportfolioDaG {
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+        margin-bottom: 1.25rem;
+        margin-top: 0;
+        padding: 1.25rem;
+    }
+
+    .myportfolio,
+    #lastsectionmyportfolio,
+    #DOTPmyportfolio,
+    #goalwiththisprojectmyportfolio,
+    #HTMLmyportfolio,
+    #CSSmyportfolio,
+    #challengesmyportfolio,
+    #insightsmyportfolio,
+    #createthestructureCCmyfortfolio,
+    #dynamicsCCmyportfolio,
+    #connectdifferentpagesCCmyportfolio,
+    #spacearoundcontentCCmyportfolio,
+    #facilitateCSSstylingCCmyportfolio,
+    #controlsizeCCmyportfolio,
+    #imagesCCmyportfolio,
+    #stylingCCmyportfolio {
+        margin: 1.25rem;
+        padding: 1.25rem;
+        max-width: 90%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    #rubrikmyportfolio {
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+        margin-top: 4%;
+    }
+
+    #underrubrikmyportfolio {
+        font-size: 1rem;
+    }
+
+    .displaymyportfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Bilder */
+    #CCimages1 {
+        max-width: 5rem;
+        height: auto;
+    }
+
+    #CCimages2,
+    #CCimages4,
+    #CCimages5,
+    #CCimages6 {
+        height: auto;
+        max-width: 9.375rem;
+    }
+
+    #CCimages3,
+    #CCimages7,
+    #CCimages8 {
+        max-width: 14.375rem;
+        height: auto;
+    }
+
+    #rubrikCC {
+        font-size: 1.25rem;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    body {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    #introduction {
+        padding-left: 65px;
+        padding-right: 40px;
+    }
+    
+    #DOTPmyportfolio {
+        height: 145px;
+    }
+}
