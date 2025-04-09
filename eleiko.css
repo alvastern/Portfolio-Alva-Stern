@@ -352,7 +352,7 @@ header {
 
 
 /* Media: Eleiko */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
     html {
       font-size: 0.875rem;
