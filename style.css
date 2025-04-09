@@ -459,7 +459,7 @@ a {
 
 
 /*För stationär dator*/
-@media (min-width: 1420px) {
+@media (min-width: 1430px) {
     body {
         margin-left: 10.5263%;
         margin-right: 10.5263%;
