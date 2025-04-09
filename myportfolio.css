@@ -338,7 +338,7 @@ header {
 }
 
 
-@media (min-width: 1500px) {
+@media (min-width: 1445px) {
     body {
         margin-left: 200px;
         margin-right: 200px;
