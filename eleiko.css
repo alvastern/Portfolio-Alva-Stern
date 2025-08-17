@@ -398,7 +398,7 @@ header {
 }
 
  /* Surfplatta (768px - 1024px) */
- @media (min-width: 768px) and (max-width: 1441px) {
+ @media (min-width: 768px) and (max-width: 1442px) {
     header {
       margin: 2rem; /* nästan som desktop */
     }
@@ -475,4 +475,5 @@ header {
         margin-right: auto;
     }
 }
+
   
