@@ -398,7 +398,7 @@ header {
 }
 
  /* Surfplatta (768px - 1024px) */
- @media (min-width: 768px) and (max-width: 1442px) {
+ @media (min-width: 768px) and (max-width: 1440px) {
     header {
       margin: 2rem; /* nästan som desktop */
     }
@@ -468,7 +468,7 @@ header {
   }
 
 /* Stor desktop (1442px och uppåt) */
-@media (min-width: 1442px) {
+@media (min-width: 1441px) {
     .wrapper-eleiko {
         max-width: 1441px;
         margin-left: auto;
@@ -477,3 +477,4 @@ header {
 }
 
   
+
